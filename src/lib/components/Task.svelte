@@ -1,23 +1,19 @@
 <script>
-  import { boards, currentBoard } from "$lib/stores/tasks"
   import { scale } from "svelte/transition"
+  import EditTask from "$lib/components/Modals/EditTask.svelte"
 
   export let task
+  
+  // Edit task modal state
+  let isOpen = false
 
-  // Delete the current task
-  function deleteTask() {
-    let newTasks = $boards[$currentBoard]
-      .filter(item => item.title !== task.title)
-
-    boards.update(data => ({
-      ...data,
-      [$currentBoard]: newTasks
-    }))
+  function setIsOpen(value) {
+    isOpen = value
   }
 </script>
 
 <div 
-  on:click={deleteTask}
+  on:click={() => setIsOpen(true)}
 
   in:scale={{ delay: 500 }}
   out:scale={{ duration: 500 }}
@@ -25,6 +21,8 @@
   <h2>{ task.title }</h2>
   <p>{ task.details }</p>
 </div>
+
+<EditTask {task} {isOpen} {setIsOpen} />
 
 <style>
   div {

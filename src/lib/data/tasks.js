@@ -4,7 +4,7 @@ export const defaultBoards = {
   "Getting Started": [
     {
       title: "Create some new tasks",
-      details: "Try creating some new tasks. Check out the beautiful animations and get used to the application"
+      details: "Try creating some new tasks. Check out the beautiful animations and get used to the application. Update or delete them by clicking at them."
     },
     {
       title: "Create a new board",

@@ -1,7 +1,6 @@
 # SvelteKit Bitboard
 
-A task management application to finally get you organized <br />
-Welcome to Bitboard: A lightweight, fast and portable task manager that's accessble from everywhere.
+Welcome to Bitboard: A lightweight, fast and portable task manager that's accessible from everywhere.
 <br />
 
 Its layout makes a great fit for a new tab page. The styling is minimal and clean <br />

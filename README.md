@@ -16,5 +16,5 @@ The application organizes your tasks into seperate boards. <br />
 Think of them as categories where all related tasks are grouped together <br />
 <br />
 
-Each task can easily be deleted by just clicking at them. <br />
+Each task can easily be edited by just clicking at it. <br />
 You can also navigate through boards with the dropdown menu at the top right.

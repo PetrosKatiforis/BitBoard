@@ -16,7 +16,7 @@ export const defaultBoards = {
     },
     {
       title: "Delete this board",
-      details: "This board is just a placeholder. You can freely delete it create a new one"
+      details: "This board is just a placeholder. You can freely delete it and start from scratch"
     }
   ]
 }

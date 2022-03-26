@@ -12,7 +12,7 @@ Here are some direct screenshots:
 
 ## Features
 
-The application organizes your tasks into seperate boards. <br />
+The application organizes your tasks into separate boards. <br />
 Think of them as categories where all related tasks are grouped together <br />
 <br />
 

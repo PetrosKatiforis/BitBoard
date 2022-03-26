@@ -65,7 +65,7 @@
 
   <h4>Delete Board</h4>
   <p>
-    Delete your current board. This action will permattely
+    Delete your current board. This action will permanetly
     remove the board and all of its inner tasks
   </p>
 

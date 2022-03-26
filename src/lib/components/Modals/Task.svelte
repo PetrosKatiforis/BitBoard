@@ -17,8 +17,8 @@
     boards.update(data => ({
       ...data,
       [$currentBoard]: [
-        ...$boards[$currentBoard],
-        { title, details }
+        { title, details },
+        ...$boards[$currentBoard]
       ]
     }))
 

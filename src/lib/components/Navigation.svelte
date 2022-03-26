@@ -24,7 +24,7 @@
     <a
       class="btn"
       target="_blank"
-      href="https://github.com/Petros-K/task-manager"
+      href="https://github.com/Petros-K/BitBoard"
     >
       <FaGithub />
     </a>

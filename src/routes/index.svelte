@@ -4,7 +4,7 @@
 
 <svelte:head>
   <title>BitBoard</title>
-  <meta name="description" value="A task management application to get you organized">
+  <meta name="description" content="BitBoard is the lightweight, simple and accessible task management application that will finally get you organized">
 </svelte:head>
 
 <Board /> 
